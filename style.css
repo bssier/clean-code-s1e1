@@ -149,8 +149,13 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
-  text-decoration: line-through
+.edit-mode input[type="text"] {
+  text-decoration: line-through;
+  color: #888;
+}
+
+#completed-tasks label {
+  text-decoration: line-through;
   color: #888;
 }
 
