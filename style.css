@@ -152,12 +152,8 @@ button.delete img:hover {
 }
 
 /* Completed */
-.edit-mode input[type="text"] {
-  text-decoration: line-through;
-  color: #888;
-}
-
-#completed-tasks label {
+#completed-tasks label,
+#completed-tasks input[type="text"] {
   text-decoration: line-through;
   color: #888;
 }
