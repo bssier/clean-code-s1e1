@@ -17,7 +17,7 @@ body {
 }
 
 .header,
-.more-inf {
+.more__inf {
   font-family: fantasy, cursive;
 }
 
@@ -39,7 +39,7 @@ body {
   flex-grow: 1;
 }
 
-.task-wrapper {
+.task__wrapper {
   display: flex;
 }
 
@@ -74,7 +74,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="new__task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -152,8 +152,8 @@ button.delete img:hover {
 }
 
 /* Completed */
-#completed-tasks label,
-#completed-tasks input[type="text"] {
+#completed__tasks label,
+#completed__tasks input[type="text"] {
   text-decoration: line-through;
   color: #888;
 }
@@ -163,11 +163,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit__mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.edit__mode label {
   display: none;
 }
